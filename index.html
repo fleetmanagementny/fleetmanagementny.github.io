@@ -37,6 +37,55 @@ background-size:cover;
 
     }
     header{
+      <section id="hero" style="
+  position:relative;
+  height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  background:url('assets/fleet-bg.png?v=2') no-repeat center center/cover;
+  overflow:hidden;
+">
+  <div style="
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+    backdrop-filter:blur(2px);
+  "></div>
+
+  <div style="position:relative;z-index:1;">
+    <img src="assets/logo.png" alt="Fleet Management NY logo" style="
+      width:300px;
+      max-width:80%;
+      border-radius:12px;
+      box-shadow:0 4px 20px rgba(66,165,245,0.4);
+      margin-bottom:20px;
+    ">
+    <h1 style="font-size:2.5rem;font-weight:800;color:#42a5f5;margin-bottom:10px;">
+      Fleet Management NY
+    </h1>
+    <p style="font-size:1.25rem;max-width:700px;margin:auto;color:#e6edf6;">
+      Professional Fleet Care • Collision Repair • 24/7 Support
+    </p>
+    <a href="#contact" style="
+      display:inline-block;
+      margin-top:25px;
+      background:#42a5f5;
+      color:white;
+      padding:14px 28px;
+      border-radius:10px;
+      font-weight:700;
+      text-decoration:none;
+      box-shadow:0 6px 20px rgba(66,165,245,0.4);
+      transition:0.3s;
+    " onmouseover="this.style.background='#1e88e5'" onmouseout="this.style.background='#42a5f5'">
+      Contact Us
+    </a>
+  </div>
+</section>
+
       position:sticky;
       top:0;
       z-index:50;
